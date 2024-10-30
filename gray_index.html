@@ -31,7 +31,7 @@
 
         main {
             width: 75%;
-            height: 2100px;
+            height: 2000px;
             background-color: white;
             margin-left: 150px;
 
@@ -100,13 +100,13 @@
 
         .slider {
             background-color: gray;
-            width: 940px;
+            width: 80%;
             height: 320px;
             margin-left: 55px;
         }
 
         .catalog_news {
-            width: 940px;
+            width: 80%;
             height: 50px;
             background-color: gray;
             margin-left: 55px;
@@ -124,8 +124,15 @@
 
         .catalog_elem {
             background-color: gray;
-            width: 220px;
-            height: 300px;
+            width: 150px;
+            height: 260px;
+        }
+
+        .aside_zagolovok {
+            width: 250px;
+            height: 30px;
+            background-color: #444444;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -147,12 +154,12 @@
             <div class="nav_block "></div>
             <div class="nav_block"></div>
             <div class="nav_block"></div>
-            <form style="margin-left: 50px;">
-                <input type="text" style="width: 300px; margin-left: 50px;">
-                <input type="submit" value="Поиск">
+            <form style="margin-left: 50px; display: flex;">
+                <input type="text" style="width: 300px; height: 20px; margin-top: 5px;">
+                <input type="submit" value="Поиск" style="margin-right: 10px;">
             </form>
         </nav>
-        <div style="display: flex;">
+        <div style="display: flex; margin-top: 20px;">
             <aside>
                 <div class="catalog">
                     <div class="custom-select">
@@ -236,107 +243,122 @@
                         <div class="select-arrow"></div>
                     </div>
                 </div>
+                <div class="aside_zagolovok">
+                    <p style="color: white;">novosti</p>
+                </div>
+                <p>
+                    novost 1
+                </p>
+                <p>
+                    novost 1 
+                </p>
+                <p>
+                    novost 1 
+                </p>
+                <div class="aside_zagolovok">
+                    <p style="color: white;">soc seti</p>
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 20px;" ><img src="vk.png"><img src="inst.png"><img src="tt.png"><img src="fb.png"></div>
             </aside>
             <div>
                 <div class="slider"></div>
                 <div class="catalog_news">
                     <div style="background-color: rgb(53, 53, 53); width: 200px; height: 20px; margin-left: 30px; ">
                     </div>
-                    <span style="margin-left: 120px;">НОВИНКИ КАТАЛОГА</span>
+                    <span style="margin-left: 20px; width: 500px;">НОВИНКИ КАТАЛОГА</span>
                     <div style="
-                    margin-left: 300px;
+                    margin-right: 20px;
                     pointer-events: none;   
-                    transform: translate(0, -50%);
-                    width: 16px;
+                    width: 20px;
                     height: 20px;
                     background-color: #000000;
                     clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
                     transform: rotate(270deg);"></div>
                 </div>
                 <div class="catalog_cont">
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
@@ -348,57 +370,56 @@
                 <div class="catalog_news">
                     <div style="background-color: rgb(53, 53, 53); width: 200px; height: 20px; margin-left: 30px; ">
                     </div>
-                    <span style="margin-left: 120px;">НОВИНКИ КАТАЛОГА</span>
+                    <span style="margin-left: 20px; width: 500px;">ПОПУЛЯРНОЕ</span>
                     <div style="
-                    margin-left: 300px;
+                    margin-right: 20px;
                     pointer-events: none;   
-                    transform: translate(0, -50%);
-                    width: 16px;
+                    width: 20px;
                     height: 20px;
                     background-color: #000000;
                     clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
                     transform: rotate(270deg);"></div>
                 </div>
                 <div class="catalog_cont">
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
                         </div>
                     </div>
-                    <div style=" width: 220px;">
+                    <div style=" width: 150px;">
                         <div class="catalog_elem"></div>
                         <p>
                             описание
-                            ~~~~~~~~~~~~~</p>
-                        <div style="background-color: rgb(61, 61, 61); width: 120px; height: 35px;"></div>
+                            ~~~~~~~~</p>
+                        <div style="background-color: rgb(61, 61, 61); width: 80px; height: 20px;"></div>
                         <div style="display: flex;">
                             <img src="basket.png" width="20px" height="20px">
                             <span>ЦЕНА</span>
